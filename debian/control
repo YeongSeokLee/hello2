@@ -1,0 +1,13 @@
+Source: hello
+Section: utils
+Priority: optional
+Maintainer: YeongSeok Lee <yeongseok_lee@tmax.co.kr>
+Build-Depends: cmake, debhelper (>=11~)
+Standards-Version: 4.1.4
+
+Package: hello
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Test Hello project
+ This is Hello Project.
